@@ -1,0 +1,16 @@
+<nav class="header_nav">
+    <div class="container">
+        <div class="naw_menu">
+            <a href="{% url 'product_list' %}" class="logo_text">TOTEMBO</a>
+
+            {% include 'components/_header_nav_menu.html' %}
+
+
+            {% include 'components/_header_panel.html' %}
+
+            <!-- BURGER MENU START -->
+            {% include 'components/_burger_menu.html' %}
+            <!-- BURGER MENU END -->
+        </div>
+    </div>
+</nav>
